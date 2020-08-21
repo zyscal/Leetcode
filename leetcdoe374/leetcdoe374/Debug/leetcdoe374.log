@@ -1,0 +1,5 @@
+﻿  源.cpp
+E:\workspace20200621home\leetcode\20200706\leetcdoe374\leetcdoe374\源.cpp(56,13): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+E:\workspace20200621home\leetcode\20200706\leetcdoe374\leetcdoe374\源.cpp(61,24): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+E:\workspace20200621home\leetcode\20200706\leetcdoe374\leetcdoe374\源.cpp(65,9): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  leetcdoe374.vcxproj -> E:\workspace20200621home\leetcode\20200706\leetcdoe374\Debug\leetcdoe374.exe
