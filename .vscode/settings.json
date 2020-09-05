@@ -34,5 +34,8 @@
     "files.autoGuessEncoding": true,
     "explorer.confirmDragAndDrop": false,
     "workbench.colorTheme": "Visual Studio Dark",
-    "team.showWelcomeMessage": false
+    "team.showWelcomeMessage": false,
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }
