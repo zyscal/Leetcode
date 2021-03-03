@@ -19,7 +19,7 @@ public:
         int i = 0;
         while (true)
         {
-            if(findp[i] == findq[i])
+            if(i < findp.size() && i < findq.size() && findp[i] == findq[i])
             {
                 i++;
             }
