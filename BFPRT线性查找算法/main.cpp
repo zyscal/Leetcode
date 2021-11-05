@@ -25,9 +25,7 @@ void add_list_yu(vector<int> &list, vector<int> &list_ans, int numofgroup, int y
 
 int BFPRT(vector<int> list, int k)//第k小问题
 {
-    cout << "enter into bprt" << endl;
     int sumnum = list.size();
-    cout << "sumnum : " << sumnum << endl; 
     if(sumnum <= 5)
     {
         sort(list.begin(), list.end());
@@ -35,7 +33,6 @@ int BFPRT(vector<int> list, int k)//第k小问题
     }
     int numofgroup = sumnum / 5;
     int yu = sumnum - numofgroup * 5;
-    cout << "numofgroup : " <<numofgroup << "   yu : " << yu << endl;
     vector<group> group_list;
     for(int i = 0; i < numofgroup; i++)
     {
@@ -61,7 +58,6 @@ int BFPRT(vector<int> list, int k)//第k小问题
     {
         midrow -= 1;
     }
-    cout << "midrow : " << midrow << endl;
     if((midrow + 1) * 3 >= k)
     {
         vector<int> nextlist;
@@ -73,12 +69,6 @@ int BFPRT(vector<int> list, int k)//第k小问题
             }
         }
         add_list_yu(list, nextlist, numofgroup, yu);
-        cout << "nextlist : ";
-        for(int i = 0; i < nextlist.size(); i++)
-        {
-            cout << nextlist[i] << " ";
-        }
-        cout << endl;
         return BFPRT(nextlist, k);
     }
     else
